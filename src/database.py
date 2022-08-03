@@ -2,8 +2,7 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import string
 import random
-
-db = SQLAlchemy()
+from src import db
 
 
 class User(db.Model):
